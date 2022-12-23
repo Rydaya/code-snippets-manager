@@ -1,0 +1,18 @@
+@import 'assets/styles/variables.scss';
+
+.folders_field {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  font-size: 16px;
+  background-color: $dark-fields;
+  border-radius: 5px 5px 0 0;
+  input {
+    height: 40px;
+    width: 200px;
+  }
+}
+.folders {
+  display: flex;
+  align-items: center;
+}

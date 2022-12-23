@@ -1,0 +1,9 @@
+@import 'assets/styles/variables.scss';
+
+.add_btn{
+    margin-right: 5px;
+    border-radius: $border-radius;
+    border: none;
+    background-color: $dark-card;
+    color: $dark-text;
+}
