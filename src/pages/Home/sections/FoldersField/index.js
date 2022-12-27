@@ -10,9 +10,27 @@ export const FoldersField = () => {
   return (
     <div className={styles.folders_field}>
       <div className={styles.folders}>
-        <AddBtn />
         <Folder>React</Folder>
         <Folder>Angular</Folder>
+        <Folder>Angular</Folder>
+        <Folder>Angular</Folder>
+        <Folder>Angular</Folder>
+        <Folder>Angular</Folder>
+        <Folder>Angular</Folder>
+        <Folder>Angular</Folder>
+        <Folder>Angular</Folder>
+        <Folder>Angular</Folder>
+        <Folder>Angular</Folder>
+        <Folder>Angular</Folder>
+        <Folder>Angular</Folder>
+        <Folder>Angular</Folder>
+        <Folder>Angular</Folder>
+        <Folder>Angular</Folder>
+        <Folder>Angular</Folder>
+        <Folder>Angular</Folder>
+        <Folder>Angular</Folder>
+        <Folder>Angular</Folder>
+        <AddBtn />
       </div>
       <Search />
     </div>

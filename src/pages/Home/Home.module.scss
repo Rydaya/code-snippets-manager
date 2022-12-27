@@ -1,3 +1,24 @@
+@import 'assets/styles/variables.scss';
+
 .home {
   padding: 0 30px;
+}
+
+.container {
+  height: 550px;
+  margin-bottom: 5px;
+  display: grid;
+  grid-template-columns: 165px 1fr 1fr 1fr;
+}
+
+.btn{
+  background-color: $dark-accent;
+  border: none;
+  font-size: 20px;
+  font-weight: 700;
+  width: 150px;
+  height: 50px;
+  border-radius: $border-radius;
+  display: block;
+  margin-left: auto;
 }

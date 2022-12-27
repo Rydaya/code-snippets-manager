@@ -1,7 +1,17 @@
 import React from 'react';
+import { AddBtn } from 'components/AddBtn';
+import { Search } from 'components/Search';
+import { Snippet } from 'components/Snippet';
 
 import styles from './SnippetsField.module.scss';
 
+
 export const SnippetsField = () => {
-  return <div className={styles.snippets_field}></div>;
+  return <div className={styles.snippets_field}>
+    <AddBtn>Add snippet</AddBtn>
+    <Search />
+    <div className={styles.snippets}>
+      <Snippet title='Button'/>
+    </div>
+  </div>;
 };
