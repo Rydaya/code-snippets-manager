@@ -7,13 +7,15 @@
   flex-direction: column;
   align-items: center;
   border-radius: 0 0 0 5px;
-  input{
+  overflow-y: auto;
+  overflow-x: hidden;
+  input {
     width: 145px;
     height: 35px;
     margin-bottom: 20px;
   }
 }
 
-.snippets{
-    width: 100%;
+.snippets {
+  width: 100%;
 }

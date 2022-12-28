@@ -12,6 +12,14 @@ export const SnippetsField = () => {
     <Search />
     <div className={styles.snippets}>
       <Snippet title='Button'/>
+      <Snippet title='Button'/>
+      <Snippet title='Button'/>
+      <Snippet title='Button'/>
+      <Snippet title='Button'/>
+      <Snippet title='Button'/>
+      <Snippet title='Button'/>
+      <Snippet title='Button'/>
+      <Snippet title='Button'/>
     </div>
   </div>;
 };
