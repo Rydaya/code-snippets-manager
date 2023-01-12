@@ -7,9 +7,10 @@
     outline: none;
     border: none;
     border-radius: $border-radius;
-    background-color: $dark-accent;
-    color: $dark-text;
+    background-color: var(--accent-color);
+    color: var(--text-color);
     padding-left: 35px;
+    height: 40px;
   }
 }
 .icon {

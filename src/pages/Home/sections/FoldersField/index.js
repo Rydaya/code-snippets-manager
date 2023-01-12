@@ -8,7 +8,7 @@ import { AddBtn } from 'components/AddBtn';
 
 export const FoldersField = () => {
   return (
-    <div className={styles.folders_field}>
+    <div className={styles.foldersField}>
       <div className={styles.folders}>
         <AddBtn />
         <Folder>React</Folder>
@@ -32,7 +32,9 @@ export const FoldersField = () => {
         <Folder>Angular</Folder>
         <Folder>Angular</Folder>
       </div>
-      <Search />
+      <div className={styles.search}>
+        <Search />
+      </div>
     </div>
   );
 };

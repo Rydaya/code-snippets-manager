@@ -58,7 +58,7 @@ export const GlobalSvgSelector = ({ id }) => {
           <circle cx="45" cy="15" r="12" fill="#252B32" />
         </svg>
       );
-    case 'search-icon':
+    case 'dark-search':
       return (
         <svg
           width="24"
@@ -87,6 +87,29 @@ export const GlobalSvgSelector = ({ id }) => {
           </defs>
         </svg>
       );
+    case 'light-search':
+      return (
+        <svg
+          width="24"
+          height="24"
+          viewBox="0 0 20 20"
+          fill="none"
+          xmlnsXlink="http://www.w3.org/1999/xlink"
+        >
+          <rect width="20" height="20" fill="url(#pattern9)" />
+          <defs>
+            <pattern id="pattern9" patternContentUnits="objectBoundingBox" width="1" height="1">
+              <use xlinkHref="#image0_73_2" transform="scale(0.0416667)" />
+            </pattern>
+            <image
+              id="image0_73_2"
+              width="24"
+              height="24"
+              xlinkHref="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYEAYAAACw5+G7AAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRAAAAAAAAPlDu38AAAAJcEhZcwAAAGAAAABgAPBrQs8AAAAHdElNRQfnAQwNJTafssG/AAAEdElEQVRYw+1Xf0xVZRh+v3MvhaNQHISjC1eFxTLPBwHnA+qec0Dn1hrEmKa2pRltrljYvRtWNuUPGKBi6mKx3FyuSUE02CS6ZBoCgQYI8SNEvf2gQC4koZnFHbv3vv1x+W4l2b3IBdfW++c53/d8z/Oe93vf5xDwMvSooor+/ovTJ1/H8o0bQYc5IKenw8/kTaiOi8NyGIaoZcvgYxiAKbudfAFHUB0ZwQLIIqbWVgBSDlBb2xfYJjW/X1fnQnU6vT3/dkE8LaBp7DXl+NatcB2q4IXCQrgBIZCk00EgXIUvh4chA1bDouZmfAQOgs5qJf14CfZoNLiB3Ad5ERHkebwXDKmpMEFegW+CgmAL1kByby+pF1RywGjsaWj7tslx5sxchbhDRRVV1GppMDsqG8vKKGVMURBpCUtXFp89G4OJqGJKymzxYoITfpfbN20SzzOtYrh8WTRLA/Kk3S6amUU2G40+E+Am/ix7WdntdIqXpD1qQFGR660gzBm/hJas6wkIoDVMkj+vquIJEn+UVijt2dl3DjxdKm7AvxGfrxAE+oRUoMSeOEGD2Trl1akpUUxMNBji472G4JeTGtgK5Z6hIV4qvsq4p2AWZmGWwEDXuVar+JU0LE81NHgNcGvmY9YkRqqa1NT5Jj6Dh41p5SU5OZzH6sLED+RESj3tEyALGjAsLY13FVdXaGxcaAF+jzmocK2iAvfie3jS4dC87TwCyRkZngVUgIF0x8fzduh6jLjQAjq7OruayPg4OQrnScKFC7gIniZLY2I87dPC1xCOz4SGwic4SYJGRgAAIGuh6f8lBshVzLpyBc0gEUt4OET/+3IB6+AiTNrt0E+qyRsazV2k7opIGCMP+PmRUngXrtlsnpYL5C14Du63WhHgIwzU6+82f9iJT2GmXo9+EA0to6MeBXCvwkc+n5wLzXtVVXzc46ciIiCHmMiTUVEkDJ3wWWurRwHcZHGvcj3kt0lnx/r1Cy1A+4PmQc2G7duxHi6CzW4nucIusqq21svtgkBbWLTS0t3NvQof+fNN/NEDyV1rluj19GF2UB65eVM0M4uyq7LS2/3Tk9bpJHnETlSTCX7CPjy1ciVE+lfZxo8d4wJ9TZwnyFFpH7Zvq6mBUEwmu6emAABIUW7uHQNzd+h2odNehY/8uRLntU4TpFrF2Nnp9l7fs0bloepqn2WIu0NusuhmFiS3j47SEqlI6d+xI7Y5ttnwa0iIJxyX/V6+nI6wemVvQQEvFZoinVOyJiY48T9tu1SnVB465Dsh0+6Qmyx3xqb9PA1j78iDfX00m1nkIbPZ5a1On3bfpVvW8xoXzcyiok7Hz+HEZyvE4x/ZDEH5SUNKqSiSJKcNXszMhJfwJBRTCr8ABabTQRkZhRs2G56D78A0NsbbIe8qPaSNNJHBwdvhu4kfJ/lQZjTCFsyD7MOHe3d2pDVvNpl89mXmO8R85lBKi4v/+YuQWSf+fyFzjRl3ZJvUoS7dv/+/o4ALMbNY+cN9++BTbCUha9f+ASatNzbOo8xmAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDIzLTAxLTEyVDEzOjM3OjU0KzAwOjAwBVR/fQAAACV0RVh0ZGF0ZTptb2RpZnkAMjAyMy0wMS0xMlQxMzozNzo1NCswMDowMHQJx8EAAAAodEVYdGRhdGU6dGltZXN0YW1wADIwMjMtMDEtMTJUMTM6Mzc6NTQrMDA6MDAjHOYeAAAAAElFTkSuQmCC"
+            />
+          </defs>
+        </svg>
+      );
     case 'dark-folder':
       return (
         <svg
@@ -107,6 +130,30 @@ export const GlobalSvgSelector = ({ id }) => {
               width="32"
               height="32"
               xlinkHref="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgEAQAAACJ4248AAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAACYktHRAAAqo0jMgAAAAlwSFlzAAAAYAAAAGAA8GtCzwAAAAd0SU1FB+YMExA2BBnCsVMAAAK8SURBVFjD7ZZRSFNRHMa/c701CBfopJBEA/NuifowZZg6cQ+CivXki8kgRKFAJIRcCOG1AplguC2RwWxP4ZMEQpIymojMyA1DhOsu0sMwKWSKTtOB8/RgJLXmdrfVSPoe7/9+//P7zv9cziUAsKpSq0PmoSEoNBqky2SIIjI8NVVgqq8nhNJo70bttapSq0Pu+Xl8On9ektPZ3q68a7MlDOCdnp1FnlaL3WCQtI+OQhkInGagt1paoM7JweedHfZKcXH+NZ8vMQDPwQHSZTKYLRblcGdnNMOKr66OfJichJIQ5K+vk2GXC+9iHwUle3vQu93Ma5ut4HkwSLze72aur09JeD6WJt4H09Noq61NKLlxefngfnU1K9UoZmo08Oh0tA3Ay/19vBcEkiHhMG5lZVFTXh41FBXJ7vX3nwA8zc5eudPUxAQzM09tMNXVRUdYFrvBILNZWVnwZnFRSgBKCRFbJybwsLERNxoaTkYgUTTbYFBdHBiIx+ulPA+xtxcAmHgakG6XSykfHIzH+6tORvBREI6u6vVpj7e2opmObm5sEBIKJRWAqsfHr1/2eGJyjSVj6WP9GAG5lJxEcQOkSv8Bzj6AYOE4QSgtFSwclxKAtDWrlWHc7rQ1qzUlANEk+TZMhsjtuTnAaEwZADfmcAAOB3DWRiA2b26GPVyQy9EKYKGq6nf1pAJQPiMjYm2EZYHwOktK/H66pFCgu6LCSVlWRw4P4wUg/PHB+mnhr83NGMjNRbfPRy6Mhd2jxPvKYkFhRwcAkBK/n77d3paU+pzZrNKYTJHqosHppK01NeTFzAxn1OnCdoD6e3rIs7IydJWX0yWFAlAoJKXmIm97LGJVbYGAk2q1OXK9/mhXo8ETRtKXwXyJ8ScmEgAAHM/dbgfsdjxKpF2cAH9SNF0UCS+X00JR/LvR/hV9A3mb+Khlc6T+AAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDIyLTEyLTE5VDE2OjU0OjA0KzAwOjAw2NtB2AAAACV0RVh0ZGF0ZTptb2RpZnkAMjAyMi0xMi0xOVQxNjo1NDowNCswMDowMKmG+WQAAAAodEVYdGRhdGU6dGltZXN0YW1wADIwMjItMTItMTlUMTY6NTQ6MDQrMDA6MDD+k9i7AAAAAElFTkSuQmCC"
+            />
+          </defs>
+        </svg>
+      );
+    case 'light-folder':
+      return (
+        <svg
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlnsXlink="http://www.w3.org/1999/xlink"
+        >
+          <rect width="24" height="24" fill="url(#pattern0)" />
+          <defs>
+            <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+              <use xlinkHref="#image0_72_2" transform="scale(0.0416667)" />
+            </pattern>
+            <image
+              id="image0_72_2"
+              width="24"
+              height="24"
+              xlinkHref="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYEAYAAACw5+G7AAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRAAAAAAAAPlDu38AAAAJcEhZcwAAAGAAAABgAPBrQs8AAAAHdElNRQfnAQwNCTPW6V6eAAAD4klEQVRYw+2XX0xbZRjGn/f0zypZNhYkBBQ6klUIaY9TbElWW1A0CBczoWHZnAuyJVW3mLFIRi+aFR0XTBgdmai7gMASh6FZjMlSMzLAlk2kZZLyTwxeDAYszWBZ+Cul6+uFCeiQZB1lOONz9yXPed/n937ny3cO6YZ1w7rhbdsWunlmS4LdTu9TL6Xl52MnvoAyOhphilNYyXFFRX0Or6PD0dAQ7vPhijSHtKWGmvp68lE7XS4qwhL28zdzc1DjNjX5/Y8cvIjNfFSppP3URakzM/SOkC3NVKt9X/2U2HZxfHzDAMQsbafx8L178FMnl8vlgdd5n9yiVA7Vep9vvTg19aiFxCjtB8b6ykrsop/RUFLC3SjFWE+P8Cz8WGppWW9QzqNavjw5GSoJKgTtlSv9r9y86aKhIRJFnc5oZOZWbuP2W7f6Yr1bOyTJyeE2eGmPPkYfk5AQtAauC2Ojo2ShQsqRSCI+8jdh4+8WF2kf7uATk0kaqbpBd+C85MezZ+llKkSORIJTXIEHTifNYhA5jY2hKmqka8yPW59a8CnniSLego3etlpDx7ETVWfOrOzA9xjC78EgtfEgFoNBVFI+tisU4TbiCi5jy8jIMypSLapE0aPyqDyq6elIDUpUaMcMP4yN4TS101J8/PIOUC5SoZBKcQjbkb6wgBTosWtiItwGQq6QK+QeOeKhLvJQ5IIvD+g2omFYWqJsnMdrgrDyCqm5HP7ZWSoJbCVXUpKPfHYX3b8fdgeCHR9HOvbaWgbgGuzhwcnJXvKR+3GCb5KEzQ7wP8BmB/jPAYjZGeWGb00mjSYjw9hmNqc1pzWnNcvlTw0An+IJvGC1EjGj7MIFWYGsILYgKmotf8Ru4iclspAcvzmdKAOzLTb2qQPorfPIO1KOHUPdn+snDiDKdJcycw4c4FRO5ueSklYZRuCGLS4OQDcAhCBHCMXFGo2203h4YeFh+wqAF25cJdpoAK7i+dB7ZjPV0XH6MitrlaHq70t6kTIo02bDGsmkKIUZBaOjNEBTJEtM1ExneI0H9+6F/oE/NNLfv97AAe2WQv7l7t1f629M3ZiamaEAaoXT1dXMJOfPm5oe9tMbnIJqqxWtGMJ0YiJX4Gu2nDiBUnqXFPPzq/wap27Y4CwuJgsOUoXdHvGJh/mLqXHpjhoGenroI3TTh7t3k2+xi1w7dvjIR//0bSbty/OoOvLOndOoddpM4/g4PsMl1ptMNIA7nBwTs14AgSmeaiYm4IAj0sMB/nIG+vo9Xpfb4UAeVHA7NqTZhgL8W8TX6VXBcPIkQuyFOjpali5Nn02fm9vsXBumPwAErYg5nVHYOgAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyMy0wMS0xMlQxMzowOTo1MSswMDowMNBHBmgAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjMtMDEtMTJUMTM6MDk6NTErMDA6MDChGr7UAAAAKHRFWHRkYXRlOnRpbWVzdGFtcAAyMDIzLTAxLTEyVDEzOjA5OjUxKzAwOjAw9g+fCwAAAABJRU5ErkJggg=="
             />
           </defs>
         </svg>

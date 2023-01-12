@@ -1,17 +1,15 @@
 @import 'assets/styles/variables.scss';
 
-.folders_field {
+.foldersField {
   display: flex;
   justify-content: space-between;
   padding: 10px 10px 5px 10px;
   margin-bottom: 5px;
   font-size: 16px;
-  background-color: $dark-fields;
+  background-color: var(--block-background-color);
   border-radius: 5px 5px 0 0;
   input {
-    height: 40px;
     max-width: 200px;
-    margin-left: 5px;
   }
 }
 .folders {
@@ -22,4 +20,7 @@
   & button {
     margin-bottom: 5px;
   }
+}
+.search{
+  margin-left: 5px;
 }

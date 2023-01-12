@@ -7,7 +7,7 @@ import styles from './SnippetsField.module.scss';
 
 
 export const SnippetsField = () => {
-  return <div className={styles.snippets_field}>
+  return <div className={styles.snippetsField}>
     <AddBtn>Add snippet</AddBtn>
     <Search />
     <div className={styles.snippets}>
