@@ -1,0 +1,26 @@
+@import 'assets/styles/variables.scss';
+
+.foldersField {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 10px 5px 10px;
+  margin-bottom: 5px;
+  font-size: 16px;
+  background-color: var(--block-background-color);
+  border-radius: 5px 5px 0 0;
+  input {
+    max-width: 200px;
+  }
+}
+.folders {
+  display: flex;
+  align-items: center;
+  overflow-x: auto;
+  overflow-y: hidden;
+  & button {
+    margin-bottom: 5px;
+  }
+}
+.search{
+  margin-left: 5px;
+}

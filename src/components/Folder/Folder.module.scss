@@ -1,0 +1,12 @@
+@import 'assets/styles/variables.scss';
+
+.folder{
+    width: 100px;
+    height: 40px;
+    margin-right: 5px;
+    border-radius: $border-radius;
+    border: none;
+    background-color: var(--cards-color);
+    color: var(--text-color);
+    font-weight: 600;
+}
